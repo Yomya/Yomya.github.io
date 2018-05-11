@@ -349,13 +349,12 @@
   
 
   
-
-<div id="container"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
-  id: '页面 ID', // 可选。默认为 location.href
+  id: "http://yoursite.com/2012/12/21/测试/",
   owner: 'yomya',
   repo: 'yomya.github.io',
   oauth: {
@@ -363,8 +362,12 @@ var gitment = new Gitment({
     client_secret: '2812f11c160168aece533e8beadd65ceed983e0e',
   },
 })
-gitment.render('container')
+gitment.render('gitment-ctn')
 </script>
+
+  
+
+
           </div>
         </div>
       </div>
